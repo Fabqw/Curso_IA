@@ -88,3 +88,83 @@ La clase tiene que ser finita, para el uso de los modelos de regresion
 tarea como importar los datos de kaggle de iris
 
 ---
+Clase 14 de julio
+
+# Algortimos poblacionales
+```
+Premisa
+└── Población
+    └── Individuo
+        └── Fenotipo
+```
+### Operadores 
+
+> El primer operado que se produce naturalmente es el "cruce"
+
+> El segundo operador es la "mutacion"
+
+> El tercer operador es la "seleccion", que se lo realiza por el mejor peso segun el criterio
+
+#### Tabla de función objetivo y evaluaciones
+
+> f(X) = x2 + 1
+
+| x                | Evaluación | Binarizar | Cruce | Mutación |
+|------------------|------------|-----------|-------|----------|
+| 2                | 5          |           |       |          |
+| 4                | 17         |           |       |          |
+| 6                | 37         |           |       |          |
+| 8                | 65         |           |       |          |
+| 10               | 101        |           |       |          |
+| 5                | 26         |           |       |          |
+
+#### ordenar
+
+| x                | Evaluación | Binarizar | Cruce(CA1 - 1) | Mutación(C_Aletorio-2)|
+|------------------|------------|-----------|----------------|-----------------------|
+| 8                | 65         | 1000001   | 1111110        | 1011110               |
+| 8                | 65         | 1000001   | 1111110        | 1011110               |
+| 6                | 37         | 0100101   | 0011010        | 0111010               |
+| 5                | 25         | 0011001   | 0100110        | 0000110               |
+| 4                | 17         | 0010001   | 0101110        | 0001110               |
+| 2                | 5          | 0000101   | 0111010        | 0011010               |
+
+#### reconstruccion para la evaluacion
+
+| x                      | Decimal    | Comparacion con el original | 
+|------------------------|------------|-----------------------------|
+| 1011110                | 94         | Mejoro                      | 
+| 1011110                | 94         | Mejoro                      | 
+| 0111010                | 58         | Mejoro                      | 
+| 0000110                | 6          | Mejoro                      | 
+| 0001110                | 14         | Mejoro                      | 
+| 0011010                | 26         | Mejoro                      | 
+
+### Utilizacion de arboles geneticos
+
+> deap
+https://github.com/DEAP/deap.git
+
+> onemax_short.py
+https://github.com/DEAP/deap/blob/master/examples/ga/onemax_short.py
+
+> instalar en venv
+pip install deap
+
+
+#### algortimio del viaje
+Con la utilizacion del algoritmo de dijkastra
+otra funcion es para el algoritmo es las n-queens
+
+> Lo anterior es un preambulo a las redes neuronales
+
+### Funciones de activacion
+![Ejemplo de funcionde activacion](https://keepcoding.io/wp-content/uploads/2022/08/image-269.png)
+![Ejemplo de funcionde activacion](https://keepcoding.io/wp-content/uploads/2022/08/image-268.png)
+
+#### Arquitectura de las redes neuronales
+![Ejemplo de red neuronal](https://d1.awsstatic.com/whatisimg/intro-gluon-1%20(1).ac2f31378926b5f99a4ba9d741c4aebe3b7a29e2.png)
+
+### Morfologia de las imagenes
+
+---
