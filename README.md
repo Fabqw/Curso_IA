@@ -165,6 +165,8 @@ otra funcion es para el algoritmo es las n-queens
 #### Arquitectura de las redes neuronales
 ![Ejemplo de red neuronal](https://d1.awsstatic.com/whatisimg/intro-gluon-1%20(1).ac2f31378926b5f99a4ba9d741c4aebe3b7a29e2.png)
 
+
+
 ### Morfologia de las imagenes
 
 ---
