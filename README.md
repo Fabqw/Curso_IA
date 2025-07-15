@@ -169,4 +169,5 @@ otra funcion es para el algoritmo es las n-queens
 
 ### Morfologia de las imagenes
 
+
 ---
